@@ -4,7 +4,8 @@ html {
 
 body {
     height: 100%;
-    
+ background:Url(https://i.pinimg.com/originals/34/88/46/3488462cd4e3d8957d09df940662f978.jpg);
+ background-size:25%;
 }
 a {
     text-decoration: none;
@@ -18,6 +19,38 @@ a {
     margin: 15px;
 }
 
-.header{
+.navbar{
+  display: flex;
+    justify-content:space-around;
     
+    
+    
+}
+
+
+
+
+.header{
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Butcherman',cursive;
+    font-size:50px;
+}
+.Mychem{
+    height: 50px;
+    width:50px;
+    display: flex;
+    justify-content:space-around;
+}
+.Panic{
+    height: 50px;
+    width:50px;
+    display: flex;
+    justify-content:space-around;
+}
+.Fallout{
+    height: 50px;
+    width:50px;
+   display: flex;
+    justify-content:space-around;
 }
