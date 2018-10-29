@@ -7,27 +7,39 @@
         <link href="https://fonts.googleapis.com/css?family=Arbutus|Butcherman|Charmonman|Creepster|Nosifer|Sancreek" rel="stylesheet">
 
     </head>
-    
-    <body>
+      <body>
         <div class="header">The Holy Emo Trinity</div>
         <div class=navbar>
              <a href="index.html">Home</a>
              <a href="about.html">About</a>
              <a href="gallery.html">Gallery</a>
         </div>
-        <div class="main">
-        </div>
-        <div class="content">
-        <img class="Fallout" src="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-10542-20130417-fob-x624-1366234945.jpg?crop=900:600&width=440">
-            <img class="panic" src="https://media2.fdncms.com/metrotimes/imager/u/original/10367657/brendon.png">
-            <img Class:"Mychem" src="http://bdfjade.com/data/out/149/6515579-my-chemical-romance-wallpaper.jpg">
-            <
-        
-        
-        
-        
-        
-        </div>
+       <center>
+           <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="https://66.media.tumblr.com/d9b15fcfc59e945252a293285198f239/tumblr_padhwcV9vs1tlwc0zo1_500.jpg" width = "500" height = "500">
+  <img class="mySlides" src="https://em.wattpad.com/73c3ea473992f91a8ff2584979262aa85aaf3a81/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f61423373423657524358696976773d3d2d3238352e313434616362356435643563626134372e6a7067?s=fit&w=720&h=720" width = "500" height = "500">
+  <img class="mySlides" src="https://66.media.tumblr.com/0801c93dcfa0b8a1be959b19438d463e/tumblr_owuk2o9CVC1wtujqbo1_640.jpg" width = "500" height = "500">
+</div>
+</center>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 8000); // Change image every 8 seconds
+}
+</script>
+
+        <img class="trinity" src="https://i.pinimg.com/originals/77/b2/19/77b219c0a94a32e4a57ccdfbf73dd2ca.jpg">
+        <img class="trinity" src="https://fc00.deviantart.net/fs70/f/2013/305/2/5/the_holy_trinity_by_nancykilljoy-d6sn4em.jpg">
         
         <div class="footer">
     
